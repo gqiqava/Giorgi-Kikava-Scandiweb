@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 9%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #1d1f22;
+  cursor: pointer;
+}
+
+.logo {
+  padding-right: 50px;
+}
+
+.active {
+  color: #5ece7b;
+}
+
+.right_menu {
+  display: flex;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.dropbtn {
+  color: black;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 18px;
+  min-width: 20px;
+  position: relative;
+}
+
+.dropdown_content {
+  position: absolute;
+  left: -80px;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content_cart {
+  position: absolute;
+  left: -380px;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.badge {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
